@@ -10,6 +10,25 @@ class Employee extends Controller
     {
     	echo "string";
 
-    	//return view('dashboard');
+    	return view('dashboard');
     }
+
+    public function add_employee()
+    {
+    	return view('add_employee');
+    }
+
+     public function show_employee()
+    {
+    	return view('show_employee');
+    }
+
+    public function insert_employee(Request $request)
+    {
+    	echo $name = $request->post('email');
+
+    	//require 'file';
+    }
+
+
 }

@@ -8,6 +8,6 @@ class Hr extends Controller
 {
     public function index()
     {
-    	# code...
+    	# code..
     }
 }

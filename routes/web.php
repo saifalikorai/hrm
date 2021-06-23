@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Employee;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 });
+
+Route::get('/add_employee', [Employee::class, 'add_employee']);
+
+Route::get('/show_employee', [Employee::class, 'show_employee']);
+
+Route::post('/insert_employee', [Employee::class, 'insert_employee']);
+
+
+
+
+
