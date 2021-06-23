@@ -27,6 +27,8 @@ class Employee extends Controller
     {
     	//return $request->all();
     	return $request->input('email');
+    	return $request->input('email');
+    	return $request->input('email');
 
     	//require 'file';
     }
