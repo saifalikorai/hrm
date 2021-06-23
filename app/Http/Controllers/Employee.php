@@ -25,7 +25,8 @@ class Employee extends Controller
 
     public function insert_employee(Request $request)
     {
-    	echo $name = $request->post('email');
+    	//return $request->all();
+    	return $request->input('email');
 
     	//require 'file';
     }

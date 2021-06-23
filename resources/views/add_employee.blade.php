@@ -316,7 +316,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="insert_employee" method="post"  >
+              <form action="insert_employee" method="post" >
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
